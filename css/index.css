@@ -1,0 +1,297 @@
+.brand-box img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-box{
+  display: block;
+  position: relative;
+  width: 15%;
+  height: 160px;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 12.5px 20px 12.5px 20px;
+  cursor: pointer;
+  text-align: center;
+}    
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+.boxes {
+  display: block;
+  width: 45%;
+  height: 450px; 
+  border-radius: 10px; 
+  background: #100e0f;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 50.5px 100px 50.5px 80px;
+  cursor: pointer;
+}
+
+.boxes2 {
+  display: block;
+  width: 35%;
+  height: 450px;
+  border-radius: 10px; 
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 50.5px 20px 50.5px 20px;
+  cursor: pointer;
+}
+.boxes3 {
+  display: block;
+  width: 35%;
+  height: 450px;
+  border-radius: 10px; 
+  background:black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 50.5px 20px 50.5px 20px;
+  cursor: pointer;
+}
+
+
+.brand-container {
+    
+    
+    display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    
+  }
+
+.da-image {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.overlay.da-image{
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
+.text1{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 42%;
+    left: auto;
+    right: auto;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.container {
+  
+  display: block;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 100px 0px 30px 0px;
+  width: 100%;
+}
+.brand-head{
+    margin-top: 100px ;
+    margin-bottom: 10px;
+}
+
+.brand-head h3{
+    text-align: center;
+    color: white;
+    
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+.new-launches {
+    margin: 30px;
+ 
+}
+
+.new-launches img {
+    width: 100%;
+    height: 650px;
+}
+
+.boxes2 h3{
+  text-align: left;
+  color: #ffffff;
+  margin-left: 0%;
+  margin-right: 0;
+  margin-top: 24%;
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+}
+.boxes3 h3{
+  text-align: right;
+  color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 24%;
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+}
+
+.boxcon{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 50.5px 0px 50.5px 0px;
+  
+}
+.boxcon2{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 50.5px 0px 50.5px 0px;
+}
+.ar{
+  margin: 0px;
+  padding: 0px;
+}
+
+.ar h3:hover{
+  color: #97C055;
+  transition: 0.5s ease-out;
+}
+@media screen and (max-width:1200px) {
+    .boxcon{
+      flex-flow: column wrap;
+      justify-content: center;
+      margin: 0px;
+    }
+    .boxcon2{
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      margin: 0px;
+    }
+    .boxes{
+      width: 90%;
+      margin-left: 12.5px  ;
+    }
+    .boxes2{
+      width: 100%;
+      height: 70px;
+      margin: 0px;
+    }
+    .boxes2 h3{
+      text-align: center;
+      color: white;
+      margin-left: 12.5px;
+      margin-top: 10px;
+      letter-spacing: 5px;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+    }
+    .boxes3 h3{
+      text-align: center;
+      color: white;
+      margin-left: 12.5px;
+      margin-top: 10px;
+      letter-spacing: 5px;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+    }
+   .boxes3{
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    }
+  .container{
+      width: 100%;
+      margin: 0px;
+    }
+  .brand-head{
+      margin-top: 100px ;
+      margin-bottom: 10px;
+  }
+  
+  .brand-head h3{ 
+    letter-spacing: 4px;
+    font-size: 25px;
+  }
+  .new-launches {
+    margin: 10px;
+ 
+  }
+  
+  .brand-box{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background: #100e0f;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 40px 40px 10px 40px;
+    cursor: pointer;
+    text-align: center;
+  }    
+  .new-launches img {
+    width: 100%;
+    height: 450px;
+  }
+}

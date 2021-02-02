@@ -1,0 +1,72 @@
+
+.brand-head{
+    margin-top: 50px ;
+    margin-bottom: 0px;
+}
+
+.brand-head h3{
+    text-align: center;
+    color: white;
+    
+    letter-spacing: 8px;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container3 {
+    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 100%;
+}
+
+
+.boxes22 {
+    display: block;
+    width: 100%;
+     
+    border-radius: 10px; 
+    background: black;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin: 0px 150px 20px 150px;
+    cursor: pointer;
+}
+  
+.boxes21 {
+    display: block;
+    width: 100%;
+    
+    background: black;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 0px 450px 20px 450px;
+    cursor: pointer;
+}
+
+.davimage{
+    height: 100%;
+    width: 100%;
+    padding: 0px 250px 0px 250px;
+    
+    text-align: center;
+    align-items: center;
+}
+
+.boxes21 p{
+    text-align: justify;
+    color: rgb(192, 192, 192);
+    margin: 0%;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }

@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+<ul>
+  
+  {% for data in data %}
+  <li>{{ data.media_type }} -{{ data.caption }} - {{data.timestamp}}</li>
+  <img src="{{ data.media_url }}"" alt="">
+  {% endfor %}
+  
+</ul>
+{% endblock content %}
