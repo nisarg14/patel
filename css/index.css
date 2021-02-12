@@ -152,8 +152,8 @@
   margin-bottom: 10px;
 }
 .brand-border{
-  margin-left: 570px ;
-  margin-right: 570px ;
+  margin-left: 470px ;
+  margin-right: 470px ;
   background-color: white;
   border: 1px solid white;
   border-radius: 10px;
@@ -234,84 +234,321 @@
   color: #97C055;
   transition: 0.5s ease-out;
 }
-@media screen and (max-width:1200px) {
-    .boxcon{
-      flex-flow: column wrap;
-      justify-content: center;
-      margin: 0px;
-    }
-    .boxcon2{
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
-      justify-items: center;
-      margin: 0px;
-    }
-    .boxes{
-      width: 90%;
-      margin-left: 12.5px  ;
-    }
-    .boxes2{
-      width: 100%;
-      height: 70px;
-      margin: 0px;
-    }
-    .boxes2 h3{
-      text-align: center;
-      color: white;
-      margin-left: 12.5px;
-      margin-top: 10px;
-      letter-spacing: 5px;
-      font-size: 15px;
-      font-family: 'Lato', sans-serif;
-    }
-    .boxes3 h3{
-      text-align: center;
-      color: white;
-      margin-left: 12.5px;
-      margin-top: 10px;
-      letter-spacing: 5px;
-      font-size: 15px;
-      font-family: 'Lato', sans-serif;
-    }
-   .boxes3{
+
+@media screen and (max-width:450px) {
+  .boxcon{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .boxcon2{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+  }
+  .boxes{
+    width: 90%;
+    margin: 0px  ;
+  }
+  .boxes2{
     width: 100%;
     height: 70px;
     margin: 0px;
-    }
-  .container{
-      width: 100%;
-      margin: 0px;
-    }
-  .brand-head{
-      margin-top: 100px ;
-      margin-bottom: 10px;
   }
-  
-  .brand-head h3{ 
-    letter-spacing: 4px;
-    font-size: 25px;
-  }
-  .new-launches {
-    margin: 10px;
- 
-  }
-  
-  .brand-box{
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 160px;
-    background: black;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    margin: 40px 40px 10px 40px;
-    cursor: pointer;
+  .boxes2 h3{
     text-align: center;
-  }    
-  .new-launches img {
-    width: 100%;
-    height: 450px;
+    color: white;
+    margin: 5px;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
   }
+  .boxes3 h3{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+ .boxes3{
+  width: 100%;
+  height: 70px;
+  margin: 0px;
+  }
+.container{
+    width: 100%;
+    margin: 0px;
+  }
+.brand-head{
+    margin-top: 100px ;
+    margin-bottom: 10px;
+}
+
+.brand-head h3{ 
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+.new-launches {
+  margin: 10px;
+}
+
+.brand-box{
+  display: block;
+  position: relative;
+  width: 30%;
+  height: 160px;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  text-align: center;
+}    
+.new-launches img {
+  width: 100%;
+  height: 450px;
+}
+.brand-head2{
+  margin-top: 20px ;
+  margin-bottom: 10px;
+}
+.brand-border{
+  margin-left: 35px ;
+  margin-right: 35px ;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.brand-head2 a{
+  text-decoration: none;
+  border: none;
+}
+.brand-head2 h5{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  letter-spacing: 2.5px;
+  font-size: 15px;
+  
+}
+}
+
+@media screen and (max-width:769px) and (min-width:451px) {
+  .boxcon{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 30px;
+  }
+  .boxcon2{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 30px;
+  }
+  .boxes{
+    width: 90%;
+    margin: 0px  ;
+  }
+  .boxes2{
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    
+  }
+  .boxes2 h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+  }
+  .boxes3 h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+  }
+ .boxes3{
+  width: 100%;
+  height: 70px;
+  margin: 0px;
+  }
+.container{
+    width: 100%;
+    margin: 0px;
+  }
+.brand-head{
+    margin-top: 100px ;
+    margin-bottom: 10px;
+}
+
+.brand-head h3{ 
+  letter-spacing: 4px;
+  font-size: 35px;
+}
+.new-launches {
+  margin: 10px;
+}
+
+.brand-box{
+  display: block;
+  position: relative;
+  width: 25%;
+  height: 160px;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 0px 30px 0px 30px;
+  cursor: pointer;
+  text-align: center;
+}    
+.new-launches img {
+  width: 100%;
+  height: 450px;
+}
+.brand-head2{
+  margin-top: 20px ;
+  margin-bottom: 10px;
+}
+.brand-border{
+  margin-left: 155px ;
+  margin-right: 155px ;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.brand-head2 a{
+  text-decoration: none;
+  border: none;
+}
+.brand-head2 h5{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+  
+}
+}
+
+@media screen and (max-width:1150px) and (min-width:770px) {
+  .boxcon{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 30px 80px 30px 80px;
+  }
+  .boxcon2{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 30px 80px 30px 80px;
+  }
+  .boxes{
+    width: 90%;
+    margin: 0px  ;
+  }
+  .boxes2{
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    
+  }
+  .boxes2 h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+  }
+  .boxes3 h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+  }
+ .boxes3{
+  width: 100%;
+  height: 70px;
+  margin: 0px;
+  }
+.container{
+    width: 100%;
+    margin: 0px;
+  }
+.brand-head{
+    margin-top: 100px ;
+    margin-bottom: 10px;
+}
+
+.brand-head h3{ 
+  letter-spacing: 5px;
+  font-size: 55px;
+}
+.new-launches {
+  margin: 10px;
+}
+
+.brand-box{
+  display: block;
+  position: relative;
+  width: 20%;
+  height: 160px;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 0px 50px 0px 50px;
+  cursor: pointer;
+  text-align: center;
+}    
+.new-launches img {
+  width: 100%;
+  height: 450px;
+}
+.brand-head2{
+  margin-top: 20px ;
+  margin-bottom: 10px;
+}
+.brand-border{
+  margin-left: 255px ;
+  margin-right: 255px ;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.brand-head2 a{
+  text-decoration: none;
+  border: none;
+}
+.brand-head2 h5{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  letter-spacing: 3.5px;
+  font-size: 35px;
+  
+}
 }

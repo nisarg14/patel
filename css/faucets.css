@@ -20,6 +20,57 @@
   *zoom: 1;
 }
 
+
+.brand-head{
+    margin-top: 50px ;
+    margin-bottom: -50px;
+}
+.brand-head h3{
+    text-align: center;
+    color: white;
+    
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+.brand-box img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-box{
+  display: block;
+  position: relative;
+  width: 8%;
+  height: 160px;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 12.5px 25px 12.5px 25px;
+  cursor: pointer;
+  text-align: center;
+}    
+
+.brand-container {
+    
+    
+    display: flex;
+    margin-bottom: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    
+  }
+
+
+
 .boxcon{
     display: flex;
     flex-flow: row wrap;
@@ -34,7 +85,7 @@
 .boxes {
     display: block;
     width: 100%;
-    height: 80%;
+    height: 100%;
     
     border-radius: 0px; 
     background: black;
@@ -44,29 +95,7 @@
     
 }
 
-.box-name{
-    height: 20%;
-    width: 100%;
-    
-    text-decoration: none;
-    padding: 7px;
-    text-align: center;
-    color:rgb(192, 192, 192);
-    letter-spacing: 5px;
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-}
 
-.box-name p{
-    text-decoration: none;
-}
-
-.brand-container {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0px 30px 30px 30px;
-    width: 100%;    
-}
 
 .da-image {
   height: 100%;
@@ -118,20 +147,8 @@
   justify-content: center;
   margin: 100px 0px 30px 0px;
   width: 100%;
+  margin-bottom: 100px;
   
-}
-.brand-head{
-    margin-top: 50px ;
-    margin-bottom: -50px;
-}
-
-.brand-head h3{
-    text-align: center;
-    color:white;
-    
-    letter-spacing: 8px;
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
 }
 .new-launches {
     margin: 30px;
@@ -159,7 +176,7 @@
         align-items: center;
         justify-content: center;
         margin:  0px ;
-        padding: 10px 25px 0px 25px;
+        
     }
     
     .boxcon{
@@ -171,15 +188,7 @@
         background: black;
         float: center;
         margin: 0px;
-    }
-    .box-name{
-        text-decoration: none;
-        padding-top: 5px;
-        text-align: center;
-        color:rgb(192, 192, 192);
-        letter-spacing: 3px;
-        font-size: 15px;
-        
+        padding: 10px 25px 10px 25px;
     }
     
     .brand-head{
@@ -193,6 +202,20 @@
         font-size: 25px;
         font-family: 'Lato', sans-serif;
     }
+    
+    .brand-box{
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 160px;
+        background: black;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin: 0px 10px 0px 10px;
+        cursor: pointer;
+        text-align: center;
+    }   
 
 }
 
@@ -203,7 +226,7 @@
         align-items: center;
         justify-content: center;
         margin:  0px ;
-        padding: 20px 65px 20px 65px;
+        
     }
     
     .boxcon{
@@ -215,15 +238,7 @@
         background: black;
         float: center;
         margin: 0px;
-    }
-    .box-name{
-        text-decoration: none;
-        padding-top: 5px;
-        text-align: center;
-        color:rgb(192, 192, 192);
-        letter-spacing: 3px;
-        font-size: 20px;
-        
+     
     }
     
     .brand-head{
@@ -237,6 +252,20 @@
         font-size: 35px;
         font-family: 'Lato', sans-serif;
     }
+    
+    .brand-box{
+        display: block;
+        position: relative;
+        width: 25%;
+        height: 160px;
+        background: black;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin: 0px 30px 0px 30px;
+        cursor: pointer;
+        text-align: center;
+    }    
 
 }
 
@@ -247,7 +276,7 @@
         align-items: center;
         justify-content: center;
         margin:  0px ;
-        padding: 20px 55px 20px 55px;
+        
     }
     
     .boxcon{
@@ -260,16 +289,9 @@
         float: center;
         margin: 0px;
         padding: 20px;
+        padding: 20px 30px 20px 30px;
     }
-    .box-name{
-        text-decoration: none;
-        padding-top: 5px;
-        text-align: center;
-        color:rgb(192, 192, 192);
-        letter-spacing: 5px;
-        font-size: 25px;
-        
-    }
+    
     
     .brand-head{
         margin-top: 50px ;
@@ -282,5 +304,18 @@
         font-size: 45px;
         font-family: 'Lato', sans-serif;
     }
+    .brand-box{
+        display: block;
+        position: relative;
+        width: 20%;
+        height: 160px;
+        background: black;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin: 0px 50px 0px 50px;
+        cursor: pointer;
+        text-align: center;
+      }   
 
 }
